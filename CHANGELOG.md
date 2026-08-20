@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0-rc.7](https://github.com/facet-rs/rusqlite-facet/compare/v2.0.0-rc.6...v2.0.0-rc.7) - 2026-08-20
+
+### Other
+
+- exclude Rust build output
+- restore rusqlite-facet as standalone crate
+
 ## [2.0.0-rc.6](https://github.com/facet-rs/facet/compare/rusqlite-facet-v2.0.0-rc.5...rusqlite-facet-v2.0.0-rc.6) - 2026-08-20
 
 ### Other
