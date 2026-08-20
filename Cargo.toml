@@ -16,7 +16,7 @@ rustdoc-args = ["--html-in-header", "arborium-header.html"]
 facet = "0.50.0-rc.6"
 facet-core = "0.50.0-rc.6"
 facet-reflect = "0.50.0-rc.6"
-rusqlite = { version = "0.32", features = ["bundled", "hooks"] }
+rusqlite = { version = "0.40", features = ["bundled", "hooks"] }
 
 [lints.clippy]
 disallowed_methods = "deny"
