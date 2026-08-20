@@ -1,1 +1,0 @@
-rd_("AjContains the success valueAhContains the error valueAoReturns the argument unchanged.0BaCalls <code>U::from(self)</code>.0DiConvert an iterator of anything into <code>FallibleIterator</code> by \xe2\x80\xa6EeConvert an iterator of <code>Result</code>s into <code>FallibleIterator</code> by \xe2\x80\xa6")

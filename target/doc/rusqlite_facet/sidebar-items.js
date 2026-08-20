@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["Error"],"fn":["from_row"],"struct":["FacetRows"],"trait":["ConnectionFacetExt","StatementFacetExt"],"type":["Result"]};
