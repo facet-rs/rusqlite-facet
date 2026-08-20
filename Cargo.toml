@@ -1,0 +1,28 @@
+[package]
+name = "rusqlite-facet"
+description = "Rusqlite integration for the facet reflection framework"
+version = "2.0.0-rc.6"
+edition = "2024"
+rust-version = "1.92"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/facet-rs/rusqlite-facet"
+homepage = "https://facet.rs"
+documentation = "https://docs.rs/rusqlite-facet"
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--html-in-header", "arborium-header.html"]
+
+[dependencies]
+facet = "0.50.0-rc.6"
+facet-core = "0.50.0-rc.6"
+facet-reflect = "0.50.0-rc.6"
+rusqlite = { version = "0.32", features = ["bundled", "hooks"] }
+
+[lints.clippy]
+disallowed_methods = "deny"
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = [
+  "cfg(facet_no_doc)",
+  "cfg(kani)",
+] }
